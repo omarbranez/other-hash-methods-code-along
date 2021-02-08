@@ -7,7 +7,8 @@ require 'pry'
 #  meat: ["chicken", "steak", "salmon"],
 #  grains: ["rice", "pasta"]
 # }
-
+                                                  # groceries.min returns the first key and its values
 def get_the_min(groceries)
   #code your solution here!
-end
+  groceries.values.flatten.min    # returns broccoli because, among the values that are now in one flat array, 
+end                               # it is alphabetically first
