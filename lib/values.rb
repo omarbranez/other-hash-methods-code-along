@@ -10,4 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-end
+  groceries.values.flatten      # .values returns the values, not the keys. in nested hash, is a nested array
+end                             # .flatten removes the nests from the nested array from .values

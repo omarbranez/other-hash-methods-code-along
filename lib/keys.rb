@@ -10,4 +10,5 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
+  groceries.keys                # .keys collects all the keys of the hash. will return dairy, vegetable, etc
 end
